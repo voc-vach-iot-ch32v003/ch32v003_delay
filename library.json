@@ -10,16 +10,20 @@
     "delayus",
     "arduino"
   ],
+  "homepage": "https://github.com/voc-vach-iot-ch32v003/ch32v003_delay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voc-vach-iot-ch32v003/ch32v003_delay.git"
+  },
+  "license": "MIT",
   "authors": [
     {
       "name": "Vọc Vạch IoT",
+      "email": "vocvachiot@gmail.com",
       "maintainer": true
     }
   ],
   "frameworks": ["ch32v003fun"],
   "platforms": ["ch32v"],
-  "build": {
-    "flags": ["-I ."]
-  },
   "dependencies": []
 }
